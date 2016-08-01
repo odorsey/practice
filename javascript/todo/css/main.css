@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Raleway', Verdana, sans-serif;
 }
 
 *:focus {
@@ -24,6 +24,10 @@ h1, h4 {
   margin: 0 0 15px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -31,6 +35,16 @@ ul {
 #wrapper {
   max-width: 500px;
   margin: 5% auto;
+  padding: 3%;
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+  box-shadow: inset 0 0 0.5em #E1E1E1;
+    -moz-box-shadow: 0 0 1em #E1E1E1;
+    -webkit-border-radius: 0 0 1em ##E1E1E1;
+
+
 }
 
 #add {
@@ -42,8 +56,8 @@ ul {
     background: linear-gradient(to bottom, #9ce5c3 0%,#43cd80 100%);
   margin: 1%;
   border-radius: 30px;
-    -web-kit-border-radius: 30px;
-    -moz-border-radius:  30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius:  30px;
   border: 1px solid #4BCC83;
   color: #FFFFFF;
   font-weight: bold;
